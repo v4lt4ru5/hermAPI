@@ -12,7 +12,8 @@
     "express": "^4.16.4",
     "mongoose": "^5.4.19",
     "request": "^2.88.0",
-    "require": "^2.4.20"
+    "require": "^2.4.20",
+    "uglify-js": "^3.4.9"
   },
   "author": "Dan Stefan Secheli",
   "license": "ISC"
