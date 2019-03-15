@@ -2,8 +2,9 @@
   "name": "api",
   "version": "1.0.0",
   "description": "Funciones simples",
-  "main": "web.js",
+  "main": "index.js",
   "scripts": {
+    "start": "nodemon index.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "dependencies": {
@@ -16,5 +17,12 @@
     "uglify-js": "^3.4.9"
   },
   "author": "Dan Stefan Secheli",
-  "license": "ISC"
+  "license": "ISC",
+  "devDependencies": {
+    "nodemon": "^1.18.10"
+  },
+  "repository": {
+    "type": "git",
+    "url": "API RESTful con Node js Hackathon"
+  }
 }
